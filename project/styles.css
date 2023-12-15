@@ -1,0 +1,293 @@
+a {
+    text-decoration: none;
+    color: rgb(112, 112, 242);
+}
+
+.ul-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+.menu__list-link {
+    color: rgb(112, 112, 242); 
+    font-family: 'Montserrat'; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-weight: 400; 
+    line-height: 41px;
+    text-transform: uppercase; 
+    margin-right: 20px;
+    padding: 10px;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.menu__list-link::after {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 2.5px;
+    background-color: #F38181;
+    bottom: -14px;
+    right: 2px;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.menu__list-link:hover {
+    color: #F38181;;
+}
+
+.menu__list-link:hover::after,
+.menu__list-link:target::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.logo-header {
+    display: flex; 
+    width: 153px; 
+    height: 53px; 
+    flex-direction: column; 
+    justify-content: center; 
+    color: rgb(112, 112, 242); 
+    text-align: center; 
+    font-family: 'Montserrat'; 
+    font-size: 36px; 
+    font-style: normal; 
+    font-weight: 400; 
+    line-height: 41px;
+    letter-spacing: 1.3px; 
+}
+
+.title-content-wow, .title-content-wow2-text {
+    text-align: center;
+    position: relative;
+}
+
+.title-content-wow::after, .title-content-wow2-text::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background-color: #F38181;
+    left: 50%;
+    bottom: 0;
+    top: 115%;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.title-content-wow:hover::after,
+.title-content-wow:target::after,
+.title-content-wow2-text:hover::after,
+.title-content-wow2-text:target::after {
+    transform: translateX(-50%) scaleX(1);
+    transform-origin: bottom left;
+}
+
+.title-content-wow2 {
+    text-align: center;
+}
+
+.title-one-wow {
+    color: #333;
+    font-family: 'Kaushan Script';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 68px;
+}
+.title-two-wow {
+    color: #333;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-variant: all-small-caps;
+}
+
+.block1-card1-wow {
+    display: flex;
+}
+
+.clock {
+    width: 37.796px;
+    height: 37px;
+    flex-shrink: 0;
+    padding-top: 16px;
+    padding-right: 11px;
+}
+
+.block1-wow, .block2-wow {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 65px;
+}
+
+.block1-card1-wow-text1 {
+    color: #333;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-variant: small-caps;
+}
+
+.block1-card1-wow-text2 {
+    color: #B6B6B6;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.title-one-photo {
+    color: #333;
+    font-family: 'Kaushan Script';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 100px;
+}
+.title-two-photo {
+    color: #333;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-variant: all-small-caps;
+}
+
+.text-after-title {
+    color: #B6B6B6;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 45px;
+    padding-bottom: 27px;
+}
+
+.man-photo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-first-man, .text-second-man, .text-third-man {
+    text-align: center;
+}
+
+.text-first-man1 {
+    color: #333;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-variant: all-small-caps;
+}
+.text-first-man2 {
+    color: #B6B6B6;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.text-content-footer {
+    color: #333;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content-footer-text-red {
+    color: #F38181;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button-emeil-content-footer {
+    display: flex;
+    overflow: hidden;
+}
+
+.emeil-footer {
+    width: 230px;
+    height: 39px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: #B6B6B6;
+    color: #B6B6B6;
+    padding-left: 20px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    border-top: 1px solid #B6B6B6;
+    border-left: 1px solid #B6B6B6;
+    border-bottom: 1px solid #B6B6B6;
+    border-right: none;
+}
+
+.button-footer {
+    width: 150px;
+    height: 43px;
+    flex-shrink: 0;
+    background-color: #95E1D3;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-variant: all-small-caps;
+    cursor: pointer;
+}
+
+.content-footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.man-photo-back {
+    position: relative;
+}
+
+.pink {
+    width: 380px;
+    height: 470px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(239, 139, 138, 0.80) 0%, rgba(229, 207, 130, 0.80) 100%);
+    position: absolute;
+    top: -14px;
+    right: 12px;
+}
