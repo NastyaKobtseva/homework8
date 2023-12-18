@@ -41,7 +41,7 @@ li {
 }
 
 .menu__list-link:hover {
-    color: #F38181;;
+    color: #F38181;
 }
 
 .menu__list-link:hover::after,
@@ -66,12 +66,14 @@ li {
     letter-spacing: 1.3px; 
 }
 
-.title-content-wow, .title-content-wow2-text {
+.title-content-wow, 
+.title-content-wow2-text {
     text-align: center;
     position: relative;
 }
 
-.title-content-wow::after, .title-content-wow2-text::after {
+.title-content-wow::after, 
+.title-content-wow2-text::after {
     content: "";
     position: absolute;
     width: 60px;
@@ -186,10 +188,12 @@ li {
 
 .man-photo {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.text-first-man, .text-second-man, .text-third-man {
+.text-first-man, 
+.text-second-man, 
+.text-third-man {
     text-align: center;
 }
 
