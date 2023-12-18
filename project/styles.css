@@ -257,6 +257,7 @@ li {
     border-left: 1px solid #B6B6B6;
     border-bottom: 1px solid #B6B6B6;
     border-right: none;
+    outline: none;
 }
 
 .button-footer {
